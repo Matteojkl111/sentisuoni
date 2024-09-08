@@ -1,0 +1,12 @@
+/* Colora gli elementi h1 */
+h1 {
+    color: #3498db; /* Azzurro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra per un effetto più evidente */
+    font-family: 'Arial', sans-serif; /* Cambia il font se desiderato */
+}
+body {
+    background-color: #2ecc71; /* Verde */
+    margin: 0; /* Rimuovi margini predefiniti del browser */
+    padding: 0; /* Rimuovi padding predefiniti del browser */
+    font-family: 'Arial', sans-serif; /* Font di default */
+}

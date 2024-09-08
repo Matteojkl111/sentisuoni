@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bottone</title>
+  <link rel="stylesheet" type="text/css" href="bottone.css">
+</head>
+<body>
+  <h1>Senti le migliori citazioni del MCU</h1>
+  <form action="">
+    <button type="button" id="playButton" style="border: none; background-color: transparent;">
+      <img src="immagini/ironman.png" alt="Clicca per ascoltare" width="200">
+    </button>
+  </form>
+
+  <audio id="myAudio">
+    <source src="suoni/iosonoironman.mp3" type="audio/mpeg">
+    Il tuo browser non supporta l'elemento audio.
+  </audio>
+
+  <script>
+    function playSound() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    }
+  </script><script src="bottone.js"></script>
+</body>
+</html>
+</body>
+</html>
